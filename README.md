@@ -1,6 +1,7 @@
 # DOMCalendar
 
 指定された年月のカレンダーをDocument Object Model（DOM）によってtable要素（オブジェクト）で作成する自作JavaScriptライブラリ
+
 ES3くらいの仕様で記述され長いこと放置されていたファイルをES6に修正
 
 ## 使用法
