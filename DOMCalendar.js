@@ -28,7 +28,7 @@ calendar.link( 8, { href : "#", title : "体育の日" })
 ### DOMCalendar( year, month ) - コンストラクタ関数
 
 ```
-const calendar = DOMCalendar(2007, 10);
+const calendar = new DOMCalendar(2007, 10);
 ```
 
 ### link( day, attrs ) - カレンダーの日付にリンク情報を挿入する
@@ -38,8 +38,9 @@ calendar.link(8, { href : "#", title : "体育の日" });
 ```
 
 第1引数にはリンクを挿入したい日、第2引数にはHTMLのリンク（a）要素に追加したい属性の連想配列
+連想配列のキーには（a）要素に指定できる属性の名前にすること
 
-### caption( str )~- カレンダーの見出し（table要素内のcaption要素）を設定
+### caption( str ) - カレンダーの見出し（table要素内のcaption要素）を設定
 
 ```
 calendar.caption("2007年10月のカレンダー");
